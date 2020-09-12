@@ -82,9 +82,6 @@
   max-width: 1500px;
 }
 
-.home__container {
-}
-
 .home__row {
   display: flex;
   z-index: 1;
@@ -135,4 +132,20 @@
   border-color: #a88734 #9c7e31 #846a29;
   color: #111;
   cursor: pointer;
+}
+
+/* Checkout */
+
+.checkout {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #fff;
+  height: max-content;
+}
+
+.checkout__title {
+  margin-right: 10px;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
 }
