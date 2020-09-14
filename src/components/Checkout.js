@@ -14,9 +14,13 @@ export const Checkout = () => {
             <div className="checkout__title">
               <h3>Hello, {user?.email}</h3>
               <h2>Your shopping basket is empty</h2>
+              <img src="/images/empty-basket.svg" alt="Basket is Empty" />
               <p>
-                You have no items in your basket. To buy one or more items,
-                click 'Add to basket' next to the item
+                The price and availability of items at Amazon.com are subject to
+                change. The Cart is a temporary place to store a list of your
+                items and reflects each item's most recent price. <br />
+                Do you have a gift card or promotional code? We'll ask you to
+                enter your claim code when it's time to pay.
               </p>
             </div>
           ) : (
