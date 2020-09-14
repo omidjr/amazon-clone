@@ -56,9 +56,9 @@ export const Login = () => {
           </button>
         </form>
         <p>
-          By signing-in you agree to Amazon's conditions of Use & Sale. Please
-          see our privacy notice, our cookies notice and our intrest-based Ads
-          notice.
+          By signing-in you agree to <strong>Fake Amazon Clone</strong>{" "}
+          conditions of Use & Sale. Please see our privacy notice, our cookies
+          notice and our intrest-based Ads notice.
         </p>
         <button onClick={register} className="login__registerButton">
           Create your amazon account

@@ -150,6 +150,10 @@
   border-bottom: 1px solid lightgray;
 }
 
+.checkout__title > h2 {
+  margin: 10px 0;
+}
+
 .checkoutProduct {
   display: flex;
   align-items: center;
