@@ -95,6 +95,13 @@
   mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 }
 
+.home__category {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #f0c14b;
+  z-index: 1;
+}
+
 .product {
   display: flex;
   flex-direction: column;
